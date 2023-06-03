@@ -139,10 +139,13 @@ body{
   text-align: center;
   margin: 25px;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 25px;
+  line-height: 40px;
+  word-spacing: 7px;
   color: #171717;
-  font-family: Arial, Helvetica, sans-serif
+  text-shadow: 1px 1px 15px rgba(0,0,0,0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 /* section end */
 
