@@ -5,8 +5,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-body{
-  background: #EFEFEF
+*::selection{
+  background: #000000;
+  
 }
 .text--black{
   text-decoration: none;
@@ -23,6 +24,17 @@ body{
 }
 [class*="clr--"]:hover{
   background: #EDEDED
+}
+.clr--bold{
+  font-weight: bold;
+}
+.crl--italic{
+  font-weight: bold;
+  font-style: italic;
+}
+.clr--thin{
+  font-weight: bold;
+  color: #545454;
 }
 /*common code end*/
 
@@ -150,7 +162,22 @@ body{
 /* section end */
 
 
+/* content start */
+.content{
+  background: #F5F5F5;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1),
+              -5px -5px 20px rgba(0, 0, 0, 0.03); 
+}
+.content__item{
+  background: #FFFFFF;
+  padding: 50px 20px;
+  margin-bottom: 50px;
+}
+/* content start */
+
 
 /* footer start */
-
 /* footer end */
+
+
+
