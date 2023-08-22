@@ -6,7 +6,9 @@
   font-family: sans-serif;
 }
 *::selection{
-  background: #000000;
+  background: #FFC916;
+  /* background: #000000; */
+  /* color: #FFFFFF; */
   
 }
 .text--black{
