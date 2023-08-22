@@ -173,6 +173,18 @@
   padding: 50px 20px;
   margin-bottom: 50px;
 }
+.content__h2{
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+}
+.content__p{
+  line-height: 27px;
+  color: #323232;
+  font-size: 15px;
+}
 /* content start */
 
 
