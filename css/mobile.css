@@ -1,0 +1,74 @@
+/*header start*/
+.checkbox__input{
+  display: none;
+}
+.checkbox__input:checked ~ .checkbox__label{
+  transform: rotate(180deg);
+}
+.checkbox__input:checked ~ .header__nav{
+  left: 0;
+}
+.checkbox__label{
+  transition: all .3s linear;
+  padding: 20px;
+}
+.checkbox__menu{
+  height: 27px;
+  width: 27px;
+}
+.checkbox__img{
+  width: 100%;
+  height: 100%;
+}
+    /* nav start */
+.header__nav{
+  left: -800px;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  transition: all .3s linear;
+  overflow-x: hidden;
+
+}
+.nav__ul{
+  overflow-y: auto;
+  height: 100vh;
+  width: 250px;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 60px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  padding: 15px 0;
+}
+.nav__logo{
+  display: flex;
+  align-items: center;
+  padding: 20px 20px 20px 30px;
+  background: #FFFFFF;
+  width: 250px;
+}
+.nav__a{
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000
+}
+.nav__p{
+  font-weight: normal;
+  font-size: 23px;
+}
+.menu--closer{
+  position: absolute;
+  left: 250px;
+  top: 0;
+  width: 550px;
+  height: 100vh;
+  background: rgba(0,0,0, 0.07)
+}
+    /* nav end */
+/*header end*/
+
+

@@ -1,0 +1,12 @@
+[class*="checkbox__"]{
+  display: none;
+}
+.nav__logo{
+  display: none;
+}
+.menu--closer{
+  display: none;
+}
+.content__item{
+  padding: 50px;
+}
