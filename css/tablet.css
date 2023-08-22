@@ -10,3 +10,20 @@
 .content__item{
   padding: 50px;
 }
+.header{
+  padding: 0 50px;
+}
+.nav__ul{
+  display: inline;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav__a{
+  text-decoration: none;
+  color: #000000;
+  padding: 20px;
+}
+.nav__a:hover{
+  background: #FFC916;
+}

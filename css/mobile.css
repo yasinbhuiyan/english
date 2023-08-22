@@ -1,4 +1,7 @@
 /*header start*/
+.header{
+  padding-right: 5px;
+}
 .checkbox__input{
   display: none;
 }
@@ -55,6 +58,9 @@
   font-size: 16px;
   font-weight: bold;
   color: #000000
+}
+.nav__a:hover{
+  background: #FFC916
 }
 .nav__p{
   font-weight: normal;
