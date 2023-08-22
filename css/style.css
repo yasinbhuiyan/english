@@ -16,6 +16,9 @@
 [class*="link--out"]:hover{
   background: #EDEDED
 }
+.t-l{
+  font-size: 9px;
+}
 /*common code end*/
 
 /*header start*/
@@ -53,6 +56,9 @@
 }
 .nav__li{
   list-style: none;
+}
+.nav__a{
+  text-transform: uppercase;
 }
     /* nav end */
 /*header end*/
