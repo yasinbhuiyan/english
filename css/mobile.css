@@ -43,7 +43,7 @@
   padding: 15px 0;
 }
 .nav__logo{
-  background: var(--primary);
+  background: #FFFFFF;
   width: 250px;
 }
 .nav__logo__a{
@@ -51,9 +51,6 @@
   padding: 20px 20px 20px 30px;
   display: flex;
   align-items: center;
-}
-.nav__a:hover{
-  background: var(--primary);
 }
 .nav__a{
   text-decoration: none;
