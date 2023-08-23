@@ -21,9 +21,5 @@
 }
 .nav__a{
   text-decoration: none;
-  color: #000000;
   padding: 20px;
-}
-.nav__a:hover{
-  background: #FFC916;
 }

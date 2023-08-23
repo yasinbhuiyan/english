@@ -43,11 +43,17 @@
   padding: 15px 0;
 }
 .nav__logo{
+  background: var(--primary);
+  width: 250px;
+}
+.nav__logo__a{
+  width: 100%;
+  padding: 20px 20px 20px 30px;
   display: flex;
   align-items: center;
-  padding: 20px 20px 20px 30px;
-  background: #FFFFFF;
-  width: 250px;
+}
+.nav__a:hover{
+  background: var(--primary);
 }
 .nav__a{
   text-decoration: none;
@@ -60,7 +66,7 @@
   color: #000000
 }
 .nav__a:hover{
-  background: #FFC916
+  color: #000000
 }
 .nav__p{
   font-weight: normal;
