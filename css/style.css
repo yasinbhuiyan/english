@@ -11,26 +11,31 @@
 }
 :root{
   /* --color: #FFFFFF; */
-  --color: #000000;
+  --color: #FFFFFF;
+}
+:root{
+  --background: #000000;
+}
+:root{
+  /* --text: #5C5C5C; */
+  --text: #BEBEBE;
 }
 *::selection{
   background: var(--primary);
-  color: var(--color);
+  color: var(--background);
 }
 .link--out{
   text-decoration: none;
   color: var(--color);
 }
 [class*="link--out"]:hover{
-  background: rgba(0, 0, 0, 0.1);
-  background: var(--primary);
-  color: var(--color);
-}
-.t-l{
-  font-size: 9px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .clr--primary{
   color: var(--primary);
+}
+body{
+  background: #1E1E1E
 }
 /*common code end*/
 
@@ -38,7 +43,7 @@
 .header{
   position: sticky;
   top: 0;
-  background: #FFFFFF;
+  background: var(--background);
   box-shadow: 5px 5px 100px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
@@ -52,7 +57,7 @@
   display: flex;
   align-items: center;
   height: 60px;
-  width: 170px;
+  width: 300px;
 }
 .header__img{
   height: 35px;
@@ -79,10 +84,11 @@
 
 /* content start */
 .content{
-  background: #F5F5F5;
+  /* background: #F5F5F5; */
+  background: #1E1E1E;
 }
 .content__item{
-  background: #FFFFFF;
+  background: var(--background);
   padding: 45px 30px;
   margin-bottom: 50px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1),
@@ -91,7 +97,7 @@
 .content__h2{
   font-weight: normal;
   font-size: 20px;
-  color: #000000;
+  color: var(--color);
   padding: 10px 0;
   text-transform: uppercase;
 }
@@ -99,7 +105,7 @@
   font-weight: normal;
   font-size: 10px;
   text-align: center;
-  color: var(--color);
+  color: #000000;
   padding: 6px 8px;
   text-transform: uppercase;
   background: var(--primary);
@@ -107,7 +113,7 @@
 }
 .content__p{
   line-height: 27px;
-  color: #5C5C5C;
+  color: var(--text);
   font-size: 15px;
   padding: 10px 0;
 }

@@ -36,15 +36,15 @@
 .nav__ul{
   overflow-y: auto;
   height: 100vh;
-  width: 250px;
-  background: #FFFFFF;
+  width: 65%;
+  background: var(--background);
   box-shadow: 5px 5px 60px rgba(0,0,0,0.1);
   border-radius: 2px;
   padding: 15px 0;
 }
 .nav__logo{
-  background: #FFFFFF;
-  width: 250px;
+  background: var(--background);
+  width: 65%;
 }
 .nav__logo__a{
   width: 100%;
@@ -60,10 +60,7 @@
   display: block;
   font-size: 16px;
   /* font-weight: bold; */
-  color: #000000
-}
-.nav__a:hover{
-  color: #000000
+  color: var(--color)
 }
 .nav__p{
   font-weight: normal;
@@ -72,9 +69,9 @@
 }
 .menu--closer{
   position: absolute;
-  left: 250px;
+  right: 0;
   top: 0;
-  width: 550px;
+  width: 35%;
   height: 100vh;
   background: rgba(0,0,0, 0.07)
 }

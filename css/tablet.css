@@ -1,6 +1,12 @@
 [class*="checkbox__"]{
   display: none;
 }
+.header__nav{
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 .nav__logo{
   display: none;
 }
@@ -14,12 +20,14 @@
   padding: 0 30px 0 50px;
 }
 .nav__ul{
-  display: inline;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 .nav__a{
   text-decoration: none;
+  display: block;
   padding: 20px;
+  font-size: 12px;
+  white-space: nowrap;
 }
