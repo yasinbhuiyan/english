@@ -28,6 +28,9 @@
   text-decoration: none;
   color: var(--color);
 }
+.in--page{
+  background: rgba(255, 255, 255, 0.2);
+}
 [class*="link--out"]:hover{
   background: rgba(255, 255, 255, 0.1);
 }
